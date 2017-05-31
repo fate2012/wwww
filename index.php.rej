@@ -1,0 +1,10 @@
+diff a/index.php b/index.php	(rejected hunks)
+@@ -19,7 +19,7 @@
+ 
+ // 定义应用目录
+ define('APP_PATH','./Application/');
+-
++//随便写点
+ // 引入ThinkPHP入口文件
+ require './ThinkPHP/ThinkPHP.php';
+ 
