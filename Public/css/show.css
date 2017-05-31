@@ -1,0 +1,57 @@
+#so{
+float:left;
+}
+.head{
+
+width:600px;
+height:60px;
+margin-left:auto;
+margin-right:auto;
+border:5px solid;
+}
+.box{
+
+width:600px;
+height:600px;
+margin-left:auto;
+margin-right:auto;
+border:5px solid;
+margin-bottom:10px;
+}
+.chat{
+
+width:430px;
+height:440px;
+float:left;
+border:5px solid;
+}
+.online{
+border:5px solid;
+width:150px;
+height:440px;
+float:right;
+}
+#msg{
+width:320px;
+height:40px;
+border-radius:10px;
+}
+#button{
+width:40px;
+height:40px;
+border-radius:10px;
+}
+#xian{
+background-color:#161641;
+border-radius:10px;
+width:300px;
+margin-left:20px;
+height:50px;
+}
+.form{
+margin-top:100px;
+}
+.he{
+background-color:#fgv;
+font-size:10px soild;
+}

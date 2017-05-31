@@ -1,0 +1,45 @@
+[ 2017-05-31T09:13:38+08:00 ] 127.0.0.1 /index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.018555s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.018555s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\5f343310d4a83e1c2f6d4e5a6181e90a.php 第 11 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\5f343310d4a83e1c2f6d4e5a6181e90a.php 第 12 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\5f343310d4a83e1c2f6d4e5a6181e90a.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-05-31T09:13:43+08:00 ] 127.0.0.1 /index.php/Index/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,2039 @@
+[ 2017-05-30T15:56:16+08:00 ] 127.0.0.1 /index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\5f343310d4a83e1c2f6d4e5a6181e90a.php 第 11 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\5f343310d4a83e1c2f6d4e5a6181e90a.php 第 12 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\5f343310d4a83e1c2f6d4e5a6181e90a.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-05-30T15:56:19+08:00 ] 127.0.0.1 /index.php/Index/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-05-30T15:56:27+08:00 ] 127.0.0.1 /index.php/Index/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_user` WHERE `account` = 'test001' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `think_user` SET `status`='1' WHERE `account` = 'test001' [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Index\Controller\LoginController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T15:56:28+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_msg` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T15:56:34+08:00 ] 127.0.0.1 /index.php/Index/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: UPDATE `think_user` SET `status`='0' WHERE `account` = 'test002' [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Index\Controller\LoginController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T15:56:35+08:00 ] 127.0.0.1 /index.php/Index/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T15:56:37+08:00 ] 127.0.0.1 /index.php/Index/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_user` WHERE `account` = 'test002' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `think_user` SET `status`='1' WHERE `account` = 'test002' [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Index\Controller\LoginController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T15:56:38+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T15:59:08+08:00 ] 127.0.0.1 /index.php/Index/Index/fresh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+
+[ 2017-05-30T16:00:38+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Class 'Index\Controller\Model' not found
+
+[ 2017-05-30T16:02:02+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131322','2017-05-30 16:02:02','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131322','2017-05-30 16:02:02','test001')
+
+[ 2017-05-30T16:02:03+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131323','2017-05-30 16:02:03','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131323','2017-05-30 16:02:03','test001')
+
+[ 2017-05-30T16:02:04+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131324','2017-05-30 16:02:04','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131324','2017-05-30 16:02:04','test001')
+
+[ 2017-05-30T16:02:04+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131324','2017-05-30 16:02:04','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131324','2017-05-30 16:02:04','test001')
+
+[ 2017-05-30T16:02:04+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131324','2017-05-30 16:02:04','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131324','2017-05-30 16:02:04','test001')
+
+[ 2017-05-30T16:02:04+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131324','2017-05-30 16:02:04','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131324','2017-05-30 16:02:04','test001')
+
+[ 2017-05-30T16:02:04+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131324','2017-05-30 16:02:04','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131324','2017-05-30 16:02:04','test001')
+
+[ 2017-05-30T16:02:05+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131325','2017-05-30 16:02:05','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131325','2017-05-30 16:02:05','test001')
+
+[ 2017-05-30T16:02:05+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131325','2017-05-30 16:02:05','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131325','2017-05-30 16:02:05','test001')
+
+[ 2017-05-30T16:02:05+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131325','2017-05-30 16:02:05','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131325','2017-05-30 16:02:05','test001')
+
+[ 2017-05-30T16:02:05+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131325','2017-05-30 16:02:05','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131325','2017-05-30 16:02:05','test001')
+
+[ 2017-05-30T16:02:05+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131325','2017-05-30 16:02:05','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131325','2017-05-30 16:02:05','test001')
+
+[ 2017-05-30T16:02:06+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+
+[ 2017-05-30T16:02:06+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+
+[ 2017-05-30T16:02:06+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+
+[ 2017-05-30T16:02:06+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+
+[ 2017-05-30T16:02:06+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+
+[ 2017-05-30T16:02:06+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131326','2017-05-30 16:02:06','test001')
+
+[ 2017-05-30T16:03:25+08:00 ] 127.0.0.1 /index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\5f343310d4a83e1c2f6d4e5a6181e90a.php 第 11 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\5f343310d4a83e1c2f6d4e5a6181e90a.php 第 12 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\5f343310d4a83e1c2f6d4e5a6181e90a.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:03:26+08:00 ] 127.0.0.1 /index.php/Index/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:03:30+08:00 ] 127.0.0.1 /index.php/Index/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_user` WHERE `account` = '001' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:04:45+08:00 ] 127.0.0.1 /index.php/Index/Login/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 非法操作:ajax
+
+[ 2017-05-30T16:04:53+08:00 ] 127.0.0.1 /index.php/Index/index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131493','2017-05-30 16:04:53','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131493','2017-05-30 16:04:53','test001')
+
+[ 2017-05-30T16:05:41+08:00 ] 127.0.0.1 /index.php/Index/index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('hello word','1496131541','2017-05-30 16:05:41','test001') [ RunTime:0.0244s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+
+[ 2017-05-30T16:06:00+08:00 ] 127.0.0.1 /index.php/Index/index/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\2017\wnmp\www\Application\Index\Controller\IndexController.class.php 第 19 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131560','2017-05-30 16:06:00','test001')
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES (NULL,'1496131560','2017-05-30 16:06:00','test001')
+
+[ 2017-05-30T16:06:02+08:00 ] 127.0.0.1 /index.php/Index/Login/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:ajax
+
+[ 2017-05-30T16:06:04+08:00 ] 127.0.0.1 /index.php/Index/Login/ajax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:ajax
+
+[ 2017-05-30T16:06:08+08:00 ] 127.0.0.1 /index.php/Index/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:06:15+08:00 ] 127.0.0.1 /index.php/Index/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_user` WHERE `account` = 'test001' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `think_user` SET `status`='1' WHERE `account` = 'test001' [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Index\Controller\LoginController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:06:17+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-05-30T16:06:21+08:00 ] 127.0.0.1 /index.php/Index/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: UPDATE `think_user` SET `status`='0' WHERE `account` = 'test002' [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Index\Controller\LoginController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:06:22+08:00 ] 127.0.0.1 /index.php/Index/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 19 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\a2af89b343bb77b6f846f8268c7ccb7e.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-05-30T16:06:24+08:00 ] 127.0.0.1 /index.php/Index/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `think_user` WHERE `account` = 'test002' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `think_user` SET `status`='1' WHERE `account` = 'test002' [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Index\Controller\LoginController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:06:25+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:07:01+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:07:05+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('001','1496131625','2017-05-30 16:07:05','test001') [ RunTime:0.0352s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+
+[ 2017-05-30T16:07:07+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('001','1496131627','2017-05-30 16:07:07','test001') [ RunTime:0.0195s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+
+[ 2017-05-30T16:07:09+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('001','1496131629','2017-05-30 16:07:09','test001') [ RunTime:0.0830s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+
+[ 2017-05-30T16:07:11+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('001','1496131631','2017-05-30 16:07:11','test001') [ RunTime:0.0273s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+
+[ 2017-05-30T16:07:14+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('001','1496131634','2017-05-30 16:07:14','test001') [ RunTime:0.0264s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+
+[ 2017-05-30T16:08:40+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:08:41+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-05-30T16:08:41+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:08:41+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:08:42+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:08:42+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:08:42+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:08:42+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-05-30T16:08:42+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:08:42+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:08:42+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:08:43+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:08:43+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:08:43+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:08:46+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('klk','1496131725','2017-05-30 16:08:45','test001') [ RunTime:0.0215s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+
+[ 2017-05-30T16:10:58+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] Division by zero D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant ajax - assumed 'ajax' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] Division by zero D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:10:58+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] Division by zero D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant ajax - assumed 'ajax' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] Division by zero D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:10:58+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] Division by zero D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant ajax - assumed 'ajax' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] Division by zero D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:10:58+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] Division by zero D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant ajax - assumed 'ajax' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] Division by zero D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:10:59+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] Division by zero D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant ajax - assumed 'ajax' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] A non-numeric value encountered D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [2] Division by zero D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:11:00+08:00 ] 127.0.0.1 /index.php/Index/Index/NAN.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 非法操作:NAN
+
+[ 2017-05-30T16:12:18+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:12:41+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:13:46+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+
+[ 2017-05-30T16:13:50+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+
+[ 2017-05-30T16:13:50+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+
+[ 2017-05-30T16:13:50+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+
+[ 2017-05-30T16:13:51+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+
+[ 2017-05-30T16:13:51+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+
+[ 2017-05-30T16:13:51+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+
+[ 2017-05-30T16:13:51+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+
+[ 2017-05-30T16:13:51+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_msg` ORDER BY id esc LIMIT 5  
+
+[ 2017-05-30T16:14:21+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id asc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 89 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:15:55+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('dfd','1496132155','2017-05-30 16:15:55','test001') [ RunTime:0.0176s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+
+[ 2017-05-30T16:21:23+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:21:23+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:21:24+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:21:26+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('222','1496132486','2017-05-30 16:21:26','test001') [ RunTime:0.0244s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+
+[ 2017-05-30T16:21:45+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:21:51+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('333','1496132511','2017-05-30 16:21:51','test001') [ RunTime:0.0557s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+
+[ 2017-05-30T16:21:54+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:25:05+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:25:06+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:25:06+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:25:06+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:25:09+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('fgfgfgfgf','1496132708','2017-05-30 16:25:08','test001') [ RunTime:0.0332s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+
+[ 2017-05-30T16:29:48+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-05-30T16:29:49+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-05-30T16:29:49+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:29:50+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-30T16:29:50+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-05-30T16:29:50+08:00 ] 127.0.0.1 /index.php/Index/Index/homePage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_user` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 47 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 74 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 90 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' D:\2017\wnmp\www\Application\Runtime\Cache\Index\d516ee1f72d08f2c7928da1aac5224fd.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-30T16:29:53+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('jhjhjhjhjhjhjh','1496132993','2017-05-30 16:29:53','test001') [ RunTime:0.0186s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-05-30T16:29:58+08:00 ] 127.0.0.1 /index.php/Index/Index/ajax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: INSERT INTO `think_msg` (`content`,`time`,`timee`,`sender`) VALUES ('0008','1496132998','2017-05-30 16:29:58','test001') [ RunTime:0.0176s ]
+SQL: SELECT * FROM `think_msg` ORDER BY id desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+

@@ -1,0 +1,1 @@
+a:8:{i:0;s:2:"id";i:1;s:8:"nickname";i:2;s:7:"dept_id";i:3;s:7:"account";i:4;s:3:"pwd";i:5;s:6:"status";s:3:"_pk";s:2:"id";s:5:"_type";a:6:{s:2:"id";s:12:"mediumint(6)";s:8:"nickname";s:11:"varchar(25)";s:7:"dept_id";s:11:"smallint(3)";s:7:"account";s:11:"varchar(20)";s:3:"pwd";s:11:"varchar(50)";s:6:"status";s:6:"int(2)";}}
